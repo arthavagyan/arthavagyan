@@ -40,5 +40,11 @@ I'm a passionate software developer with a knack for building innovative solutio
 
 ## 📫 Contact Me
 
-[![LinkedIn](https://www.vikingcamps.com/wp-content/uploads/2024/01/linkedin-logo-linkedin-icon-transparent-free-png.webp)](https://www.linkedin.com/in/arthavagyan)
-[![Email](https://img.shields.shields.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:artavagy@gmail.com)
+<p align="left">
+  <a href="https://www.linkedin.com/in/arthavagyan" target="_blank">
+    <img src="https://www.vikingcamps.com/wp-content/uploads/2024/01/linkedin-logo-linkedin-icon-transparent-free-png.webp" height="40" alt="LinkedIn" />
+  </a>
+  <a href="mailto:artavagy@gmail.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png&logoColor=white" height="40" alt="Email" />
+  </a>
+</p>
