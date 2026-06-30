@@ -40,5 +40,5 @@ I'm a passionate software developer with a knack for building innovative solutio
 
 ## 📫 Contact Me
 
-[![LinkedIn](https://img.shields.shields.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harut-babayan)
-[![Email](https://img.shields.shields.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:har.babayan97@gmail.com)
+[![LinkedIn](https://img.shields.shields.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthavagyan)
+[![Email](https://img.shields.shields.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:artavagy@gmail.com)
