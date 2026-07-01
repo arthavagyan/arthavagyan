@@ -21,7 +21,7 @@ memory management, with core expertise in C and Python development within Linux/
 
 ---
 
-<table width="100%" style="border-collapse: collapse; border: none;">
+<table align="center" width="200" style="border-collapse: collapse; border: none;">
   <tr>
     <!-- Левая колонка -->
     <td valign="top" width="50%" style="border: none;">
@@ -61,10 +61,10 @@ memory management, with core expertise in C and Python development within Linux/
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
     <td align="center" valign="center" style="border: none;">
-      <img src="https://streak-stats.demolab.com/?user=arthavagyan&theme=dark&hide_border=false" alt="Streak Stats" height="200" />
+      <img src="https://streak-stats.demolab.com/?user=arthavagyan&theme=dark&hide_border=false" alt="Streak Stats" />
     </td>
     <td align="center" valign="center" style="border: none;">
-      <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Langs" height="200" />
+      <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Langs"/>
     </td>
   </tr>
 </table>
