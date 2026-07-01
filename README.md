@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋🏻, I'm Arthur Avagyan</h1>
 
-<h2 align="center">Turning imagination into reality 🚀</h2>
+<h2 align="center">Code is like humor. When you have to explain it, it’s bad</h2>
 
 <h3 align="center">🌐 Socials:</h3>
 <div align="center">
