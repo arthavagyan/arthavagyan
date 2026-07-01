@@ -1,9 +1,9 @@
-# <p align = center>Hi 👋🏻, I'm Arthur Avagyan</p>
+<h1 align="center">Hi 👋🏻, I'm Arthur Avagyan</h1>
 
-## <p align = center>Turning imagination into reality 🚀 </p>
+<h2 align="center">Turning imagination into reality 🚀</h2>
 
-### <p align = center>🌐 Socials:</p>
-<div align = center>
+<h3 align="center">🌐 Socials:</h3>
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/arthavagyan) [![email](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:arthavagy@gmail.com) 
 
@@ -13,7 +13,7 @@
 
 # 🧐 About me
 
-<p align = center>
+<p align="center">
 Final-year Applied Mathematics and Informatics student at NPUA, concurrently pursuing intensive software
 engineering training at 42 Yerevan. I oﬀer a strong technical foundation in algorithms, data structures, and
 memory management, with core expertise in C and Python development within Linux/Unix environments.
@@ -58,18 +58,15 @@ memory management, with core expertise in C and Python development within Linux/
 
 # 📊 GitHub Stats:
 
-<table align="center">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <td align="center" valign="center">
-      <img src="https://streak-stats.demolab.com/?user=arthavagyan&theme=dark&hide_border=false" alt="Streak Stats" height = 200/>
+    <td align="center" valign="center" style="border: none;">
+      <img src="https://streak-stats.demolab.com/?user=arthavagyan&theme=dark&hide_border=false" alt="Streak Stats" height="200" />
     </td>
-    <td align="center" valign="center">
-      <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Langs" height = 200 />
+    <td align="center" valign="center" style="border: none;">
+      <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Langs" height="200" />
     </td>
   </tr>
 </table>
 
 <!-- ![](https://github-readme-stats.shion.dev/api?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/> -->
-
----
-
