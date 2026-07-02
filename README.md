@@ -56,17 +56,12 @@ memory management, with core expertise in C and Python development within Linux/
   </tr>
 </table>
 
-Для твоего GitHub Profile README лучше всего подойдет формат «карточки проекта» с использованием визуальных акцентов (бейджей), краткого описания архитектуры и «умных» фишек твоего решения.
-
-Ниже представлен текст, который ты можешь просто скопировать и вставить. Я использовал `diff` и другие синтаксические выделения, чтобы добавить цвета в блок кода, как ты и просил.
-
 ---
 # 🛠️ Projects & Portfolio
 
 
 ## [📈 Push_Swap — The Art of Sorting](https://github.com/arthavagyan/Push_swap)
 <p align="left">
-  <img src="https://img.shields.io/badge/Score-125%2F100-brightgreen?style=for-the-badge&logo=42" />
   <img src="https://img.shields.io/badge/Algorithm-Radix%20%7C%20Chunk%20%7C%20Selection-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
 </p>
@@ -78,6 +73,35 @@ An optimized data sorting algorithm project developed at **42 Yerevan**. The cha
 *   **Memory Management:** Strict adherence to C standards with zero memory leaks.
 *   **Optimization:** Minimizing the instruction count to beat the school's "ideal" benchmarks.
 *   **Bitwise Logic:** Mastering binary manipulation to implement an efficient Radix sort on stacks.
+
+
+## [🖨️ ft_printf — Custom Printf Implementation](https://github.com/arthavagyan/ft_printf)
+<p align="left">
+  <img src="https://img.shields.io/badge/Concept-Variadic%20Functions-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
+</p>
+
+#### **What is it?**
+A project to recreate the standard C library’s `printf` function. It involves building a personal version of the formatter that can handle various data types and complex formatting flags, providing a deeper understanding of how data is processed and displayed in C.
+
+#### **Key Technical Challenges:**
+*   **Variadic Functions:** Mastering the use of `<stdarg.h>` to handle an unpredictable number of arguments.
+*   **Buffer & Parsing Logic:** Implementing a robust parser to identify format specifiers and apply flags (like width, precision, and padding) in the correct order.
+*   **Hexadecimal & Pointer Handling:** Writing custom converters to transform memory addresses and integers into hex strings (lowercase/uppercase) without using external libraries.
+
+## [📜 Get_Next_Line — Efficient Line Reading](https://github.com/arthavagyan/get_next_line)
+<p align="left">
+  <img src="https://img.shields.io/badge/Concept-Static%20Variables-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
+</p>
+
+#### **What is it?**
+A fundamental C function that reads from a file descriptor and returns one line at a time. This project solves the challenge of reading dynamic data where the line length is unknown, making it a crucial tool for parsing files and handling user input.
+
+#### **Key Technical Challenges:**
+*   **Static Buffer Persistence:** Mastering the use of static variables to "remember" leftover data between function calls, ensuring no characters are lost when reading across buffer boundaries.
+*   **Dynamic Memory Management:** Implementing precise allocation and freeing logic to handle lines of any size while maintaining a 100% leak-free execution (verified with Valgrind).
+*   **Buffer Size Versatility:** Ensuring the algorithm remains highly efficient whether the `BUFFER_SIZE` is set to 1, 42, or 10,000,000, handling multiple edge cases like EOF and empty files.
 
 ---
 
