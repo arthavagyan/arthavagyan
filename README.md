@@ -110,7 +110,7 @@ A fundamental C function that reads from a file descriptor and returns one line 
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
     <td align="center" valign="center" style="border: none;">
-      <img src="https://streak-stats.demolab.com/?user=arthavagyan&theme=dark&hide_border=false" alt="Streak Stats" />
+      <img src="" alt="Streak Stats" />
     </td>
     <td align="center" valign="center" style="border: none;">
       <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Langs"/>
