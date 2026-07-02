@@ -56,6 +56,31 @@ memory management, with core expertise in C and Python development within Linux/
   </tr>
 </table>
 
+Для твоего GitHub Profile README лучше всего подойдет формат «карточки проекта» с использованием визуальных акцентов (бейджей), краткого описания архитектуры и «умных» фишек твоего решения.
+
+Ниже представлен текст, который ты можешь просто скопировать и вставить. Я использовал `diff` и другие синтаксические выделения, чтобы добавить цвета в блок кода, как ты и просил.
+
+---
+# 🛠️ Projects & Portfolio
+
+
+## [📈 Push_Swap — The Art of Sorting](https://github.com/arthavagyan/Push_swap)
+<p align="left">
+  <img src="https://img.shields.io/badge/Score-125%2F100-brightgreen?style=for-the-badge&logo=42" />
+  <img src="https://img.shields.io/badge/Algorithm-Radix%20%7C%20Chunk%20%7C%20Selection-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
+</p>
+
+#### **What is it?**
+An optimized data sorting algorithm project developed at **42 Yerevan**. The challenge was to sort a random stack of integers using only two stacks and a limited set of operations (swaps, pushes, rotations) with the **minimum number of moves**.
+
+#### **Key Technical Challenges:**
+*   **Memory Management:** Strict adherence to C standards with zero memory leaks.
+*   **Optimization:** Minimizing the instruction count to beat the school's "ideal" benchmarks.
+*   **Bitwise Logic:** Mastering binary manipulation to implement an efficient Radix sort on stacks.
+
+---
+
 # 📊 GitHub Stats:
 
 <table align="center" style="border-collapse: collapse; border: none;">
