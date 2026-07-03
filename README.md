@@ -2,10 +2,13 @@
 
 <h2 align="center">Code is like humor. When you have to explain it, it’s bad</h2>
 
-<h3 align="center">🌐 Socials:</h3>
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg)](https://linkedin.com/in/arthavagyan) [![email](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:arthavagy@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-8B4513?style=for-the-badge")](https://linkedin.com/in/arthavagyan) [![CV](https://img.shields.io/badge/CV-2F4F4F?style=for-the-badge")](mailto:arthavagy@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arthavagyan) 
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthavagy@gmail.com) 
+[![CV](https://img.shields.io/badge/CV-2F4F4F?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1Wg4sBJCw-wbwnl68sQes4tj4FEUyJxB6/view?usp=sharing) 
+
+<!--[![Portfolio](https://img.shields.io/badge/Portfolio-8B4513?style=for-the-badge&logo=workplace&logoColor=white)](https://linkedin.com/in/arthavagyan) -->
 
 </div>
 
@@ -14,41 +17,37 @@
 # 🧐 About me
 
 <p align="center">
-Final-year Applied Mathematics and Informatics student at NPUA, concurrently pursuing intensive software
-engineering training at 42 Yerevan. I oﬀer a strong technical foundation in algorithms, data structures, and
-memory management, with core expertise in C and Python development within Linux/Unix environments.
+Final-year Applied Mathematics and Informatics student at NPUA, concurrently pursuing intensive software engineering training at 42 Yerevan. I oﬀer a strong technical foundation in algorithms, data structures, and memory management, with core expertise in C and Python development within Linux/Unix environments.
 </p>
 
 ---
 
-<table align="center" style="border-collapse: collapse; border: none;">
+<table align="center" style="border: none;">
   <tr>
-    <!-- Левая колонка: Tech Stack -->
     <td valign="top" width="50%" style="border: none;">
-      <h2 align="center">💻 Tech Stack</h2>
-      <p align="left">
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
+      <h3 align="center">💻 Tech Stack</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/OOP-4682B4?style=for-the-badge&logo=codeforces&logoColor=white" />
         <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
         <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
         <img src="https://img.shields.io/badge/Unity-101010?style=for-the-badge&logo=unity&logoColor=white" />
         <img src="https://img.shields.io/badge/Linux-6A5ACD?style=for-the-badge&logo=linux&logoColor=white" />
-        <img src="https://img.shields.io/badge/Algorithms-FF69B4?style=for-the-badge&logo=data-structures&logoColor=white" />
+        <img src="https://img.shields.io/badge/Algorithms-FF69B4?style=for-the-badge" />
         <img src="https://img.shields.io/badge/Networking-00599C?style=for-the-badge" />
         <img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" />
         <img src="https://img.shields.io/badge/Memory_Management-FFD700?style=for-the-badge" />
-        <img src="https://img.shields.io/badge/Assortment_Optimization-2E8B57?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Optimization-2E8B57?style=for-the-badge" />
       </p>
     </td>
-    <!-- Правая колонка: Soft Skills -->
     <td valign="top" width="50%" style="border: none;">
-      <h2 align="center">💡 Soft Skills</h2>
-      <p align="right">
-        <img src="https://img.shields.io/badge/Peer_to_Peer_Collaboration-4682B4?style=for-the-badge" />
-        <img src="https://img.shields.io/badge/Self_Directed_Learning-2F4F4F?style=for-the-badge" />
+      <h3 align="center">💡 Soft Skills</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Peer_Collaboration-4682B4?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Self_Learning-2F4F4F?style=for-the-badge" />
         <img src="https://img.shields.io/badge/Time_Management-8B4513?style=for-the-badge" />
-        <img src="https://img.shields.io/badge/Resilience_&_Persistence-2E8B57?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Resilience-2E8B57?style=for-the-badge" />
         <img src="https://img.shields.io/badge/Teamwork-DC143C?style=for-the-badge" />
         <img src="https://img.shields.io/badge/Flexibility-DAA520?style=for-the-badge" />
         <img src="https://img.shields.io/badge/Critical_Thinking-4B0082?style=for-the-badge" />
@@ -124,7 +123,7 @@ A comprehensive collection of re-implemented standard C library functions, along
 
 ---
 
-# 📊 GitHub Stats:
+# 📊 Stats & Activity
 
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
@@ -138,4 +137,3 @@ A comprehensive collection of re-implemented standard C library functions, along
 </table>
 
 <!-- ![](https://github-readme-stats.shion.dev/api?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/> -->
-
