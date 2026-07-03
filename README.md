@@ -5,7 +5,7 @@
 <h3 align="center">🌐 Socials:</h3>
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/arthavagyan) [![email](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:arthavagy@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg)](https://linkedin.com/in/arthavagyan) [![email](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:arthavagy@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-8B4513?style=for-the-badge")](https://linkedin.com/in/arthavagyan) [![CV](https://img.shields.io/badge/CV-2F4F4F?style=for-the-badge")](mailto:arthavagy@gmail.com) 
 
 </div>
 
@@ -21,42 +21,47 @@ memory management, with core expertise in C and Python development within Linux/
 
 ---
 
-<table align="center" width="200" style="border-collapse: collapse; border: none;">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <!-- Левая колонка -->
+    <!-- Левая колонка: Tech Stack -->
     <td valign="top" width="50%" style="border: none;">
-      <h2>💻 Tech Stack:</h2>
-      <ul>
-        <li>C (Programming Language)</li>
-        <li>Python</li>
-        <li>Bash</li>
-        <li>Git</li>
-        <li>Networking</li>
-        <li>Memory Management</li>
-        <li>Algorithms & Data Structures</li>
-        <li>Unity</li>
-        <li>Microsoft Office</li>
-      </ul>
+      <h2 align="center">💻 Tech Stack</h2>
+      <p align="left">
+        <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/OOP-4682B4?style=for-the-badge&logo=codeforces&logoColor=white" />
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Unity-101010?style=for-the-badge&logo=unity&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux-6A5ACD?style=for-the-badge&logo=linux&logoColor=white" />
+        <img src="https://img.shields.io/badge/Algorithms-FF69B4?style=for-the-badge&logo=data-structures&logoColor=white" />
+        <img src="https://img.shields.io/badge/Networking-00599C?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" />
+        <img src="https://img.shields.io/badge/Memory_Management-FFD700?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Assortment_Optimization-2E8B57?style=for-the-badge&logo= Airtable&logoColor=white" />
+      </p>
     </td>
-    <!-- Правая колонка -->
+    <!-- Правая колонка: Soft Skills -->
     <td valign="top" width="50%" style="border: none;">
-      <h2>💡 Soft Skills:</h2>
-      <ul>
-        <li>Peer-to-Peer Collaboration</li>
-        <li>Self-Directed Learning</li>
-        <li>Time Management</li>
-        <li>Responsibility</li>
-        <li>Resilience & Persistence</li>
-        <li>Teamwork</li>
-        <li>Flexibility</li>
-        <li>Critical Thinking</li>
-        <li>Creativity</li>
-      </ul>
+      <h2 align="center">💡 Soft Skills</h2>
+      <p align="right">
+        <img src="https://img.shields.io/badge/Peer_to_Peer_Collaboration-4682B4?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Self_Directed_Learning-2F4F4F?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Time_Management-8B4513?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Resilience_&_Persistence-2E8B57?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Teamwork-DC143C?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Flexibility-DAA520?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Critical_Thinking-4B0082?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Creativity-FF8C00?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Communication-008080?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Problem_solving-008B8B?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Responsibility-6A5ACD?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Persistence-20B2AA?style=for-the-badge" />
+      </p>
     </td>
   </tr>
 </table>
 
----
 # 🛠️ Projects & Portfolio
 
 
@@ -102,6 +107,20 @@ A fundamental C function that reads from a file descriptor and returns one line 
 *   **Static Buffer Persistence:** Mastering the use of static variables to "remember" leftover data between function calls, ensuring no characters are lost when reading across buffer boundaries.
 *   **Dynamic Memory Management:** Implementing precise allocation and freeing logic to handle lines of any size while maintaining a 100% leak-free execution (verified with Valgrind).
 *   **Buffer Size Versatility:** Ensuring the algorithm remains highly efficient whether the `BUFFER_SIZE` is set to 1, 42, or 10,000,000, handling multiple edge cases like EOF and empty files.
+
+## [📚 Libft — The Foundation C Library](https://github.com/arthavagyan/libft)
+<p align="left">
+  <img src="https://img.shields.io/badge/Concept-Memory%20Management-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
+</p>
+
+#### **What is it?**
+A comprehensive collection of re-implemented standard C library functions, along with additional utilities for linked list management and string manipulation. This project serves as the backbone for all subsequent 42 School projects, replacing the standard libc with a custom-built, reliable toolkit.
+
+#### **Key Technical Challenges:**
+*   **Pointer Arithmetic & Type Casting:** Gaining deep knowledge of C types by implementing low-level memory functions like `memset`, `bzero`, and `memmove` from scratch.
+*   **Abstract Data Structures:** Designing a versatile linked list API to handle dynamic data storage, including advanced functions like `ft_lstmap` for functional-style iterations.
+*   **Library Compilation:** Mastering the creation of a static library (`.a` file) using a professional `Makefile` with automated rules for maintenance and re-compilation.
 
 ---
 
