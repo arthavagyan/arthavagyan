@@ -38,7 +38,7 @@ memory management, with core expertise in C and Python development within Linux/
         <img src="https://img.shields.io/badge/Networking-00599C?style=for-the-badge" />
         <img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" />
         <img src="https://img.shields.io/badge/Memory_Management-FFD700?style=for-the-badge" />
-        <img src="https://img.shields.io/badge/Assortment_Optimization-2E8B57?style=for-the-badge&logo= Airtable&logoColor=white" />
+        <img src="https://img.shields.io/badge/Assortment_Optimization-2E8B57?style=for-the-badge" />
       </p>
     </td>
     <!-- Правая колонка: Soft Skills -->
