@@ -79,7 +79,7 @@ An optimized data sorting algorithm project developed at **42 Yerevan**. The cha
 *   **Bitwise Logic:** Mastering binary manipulation to implement an efficient Radix sort on stacks.
 
 
-## [🖨️ ft_printf — Custom Printf Implementation](https://github.com/arthavagyan/ft_printf)
+## [🖨️ ft_printf — Custom Printf Implementation](https://github.com/arthavagyan/Printf)
 <p align="left">
   <img src="https://img.shields.io/badge/Concept-Variadic%20Functions-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
