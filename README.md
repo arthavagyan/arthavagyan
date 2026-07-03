@@ -5,7 +5,7 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arthavagyan) 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthavagy@gmail.com) 
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=arthavagy@gmail.com) 
 [![CV](https://img.shields.io/badge/CV-2F4F4F?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1Wg4sBJCw-wbwnl68sQes4tj4FEUyJxB6/view?usp=sharing) 
 
 <!--[![Portfolio](https://img.shields.io/badge/Portfolio-8B4513?style=for-the-badge&logo=workplace&logoColor=white)](https://linkedin.com/in/arthavagyan) -->
