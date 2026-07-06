@@ -136,4 +136,4 @@ A comprehensive collection of re-implemented standard C library functions, along
   </tr>
 </table>
 
-<!-- ![](https://github-readme-stats.shion.dev/api?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/> -->
+<!-- ![](https://github-readme-stats.shion.dev/api?username=arthavagyan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/> --> 
