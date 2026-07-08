@@ -11,7 +11,7 @@
 <!-- [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-8B4513?style=for-the-badge)](https://linkedin.com/in/arthavagyan) -->
 
 <p align="center">
-  <code style="font-size: 18px; font-weight: 600; color: #58A6FF;">Code is like humor. When you have to explain it, it's bad.</code>
+  <code style="font-size: 22px; font-weight: 600; color: #58A6FF;">Code is like humor. When you have to explain it, it's bad.</code>
 </p>
 
 </div>
