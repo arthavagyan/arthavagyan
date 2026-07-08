@@ -10,9 +10,7 @@
 
 <!-- [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-8B4513?style=for-the-badge)](https://linkedin.com/in/arthavagyan) -->
 
-<p align="center">
-  <code style="font-size: 18px; font-weight: 600; color: #58A6FF;">Code is like humor. When you have to explain it, it's bad.</code>
-</p>
+*`Code is like humor. When you have to explain it, it's bad.`*
 
 </div>
 
@@ -94,7 +92,8 @@
 # • Featured Projects
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a></span></summary>
+<summary><b><a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a></b></summary>
+
 <br>
 
 <p align="left">
@@ -102,10 +101,12 @@
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
 </p>
 
-#### **What is it?**
+**What is it?**
+
 An optimized data sorting algorithm project developed at **42 Yerevan**. The challenge was to sort a random stack of integers using only two stacks and a limited set of operations (swaps, pushes, rotations) with the **minimum number of moves**.
 
 **Key Technical Challenges:**
+
 | Challenge | Details |
 |:--|:--|
 | **Memory Management** | Strict adherence to C standards with zero memory leaks |
@@ -117,7 +118,8 @@ An optimized data sorting algorithm project developed at **42 Yerevan**. The cha
 <br>
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a></span></summary>
+<summary><b><a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a></b></summary>
+
 <br>
 
 <p align="left">
@@ -125,10 +127,12 @@ An optimized data sorting algorithm project developed at **42 Yerevan**. The cha
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
 </p>
 
-#### **What is it?**
+**What is it?**
+
 A project to recreate the standard C library's `printf` function. It involves building a personal version of the formatter that can handle various data types and complex formatting flags, providing a deeper understanding of how data is processed and displayed in C.
 
 **Key Technical Challenges:**
+
 | Challenge | Details |
 |:--|:--|
 | **Variadic Functions** | Mastering the use of `<stdarg.h>` to handle an unpredictable number of arguments |
@@ -140,7 +144,8 @@ A project to recreate the standard C library's `printf` function. It involves bu
 <br>
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/get_next_line">Get_Next_Line — Efficient Line Reading</a></span></summary>
+<summary><b><a href="https://github.com/arthavagyan/get_next_line">Get_Next_Line — Efficient Line Reading</a></b></summary>
+
 <br>
 
 <p align="left">
@@ -148,10 +153,12 @@ A project to recreate the standard C library's `printf` function. It involves bu
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
 </p>
 
-#### **What is it?**
+**What is it?**
+
 A fundamental C function that reads from a file descriptor and returns one line at a time. This project solves the challenge of reading dynamic data where the line length is unknown, making it a crucial tool for parsing files and handling user input.
 
 **Key Technical Challenges:**
+
 | Challenge | Details |
 |:--|:--|
 | **Static Buffer Persistence** | Mastering the use of static variables to "remember" leftover data between function calls, ensuring no characters are lost across buffer boundaries |
@@ -163,7 +170,8 @@ A fundamental C function that reads from a file descriptor and returns one line 
 <br>
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/libft">Libft — The Foundation C Library</a></span></summary>
+<summary><b><a href="https://github.com/arthavagyan/libft">Libft — The Foundation C Library</a></b></summary>
+
 <br>
 
 <p align="left">
@@ -171,10 +179,12 @@ A fundamental C function that reads from a file descriptor and returns one line 
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
 </p>
 
-#### **What is it?**
+**What is it?**
+
 A comprehensive collection of re-implemented standard C library functions, along with additional utilities for linked list management and string manipulation. This project serves as the backbone for all subsequent 42 School projects, replacing the standard libc with a custom-built, reliable toolkit.
 
 **Key Technical Challenges:**
+
 | Challenge | Details |
 |:--|:--|
 | **Pointer Arithmetic & Casting** | Deep knowledge of C types by implementing low-level memory functions like `memset`, `bzero`, and `memmove` from scratch |
