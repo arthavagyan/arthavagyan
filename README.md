@@ -10,9 +10,7 @@
 
 <!-- [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-8B4513?style=for-the-badge)](https://linkedin.com/in/arthavagyan) -->
 
-<p align="center">
-  <code style="font-size: 18px; font-weight: 600; color: #58A6FF;">Code is like humor. When you have to explain it, it's bad.</code>
-</p>
+<h3 align="center">Code is like humor. When you have to explain it, it's bad.</h3>
 
 </div>
 
@@ -94,7 +92,7 @@
 # • Featured Projects
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a></span></summary>
+<summary><a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a></summary>
 <br>
 
 <p align="left">
@@ -117,7 +115,7 @@ An optimized data sorting algorithm project developed at **42 Yerevan**. The cha
 <br>
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a></span></summary>
+<summary><a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a></summary>
 <br>
 
 <p align="left">
@@ -140,7 +138,7 @@ A project to recreate the standard C library's `printf` function. It involves bu
 <br>
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/get_next_line">Get_Next_Line — Efficient Line Reading</a></span></summary>
+<summary><a href="https://github.com/arthavagyan/get_next_line">Get_Next_Line — Efficient Line Reading</a></summary>
 <br>
 
 <p align="left">
@@ -163,7 +161,7 @@ A fundamental C function that reads from a file descriptor and returns one line 
 <br>
 
 <details>
-<summary><span style="font-size: 1.5em; font-weight: bold;"><a href="https://github.com/arthavagyan/libft">Libft — The Foundation C Library</a></span></summary>
+<summary><a href="https://github.com/arthavagyan/libft">Libft — The Foundation C Library</a></summary>
 <br>
 
 <p align="left">
