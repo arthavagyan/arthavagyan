@@ -91,8 +91,10 @@
 
 # • Featured Projects
 
+### <a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a>
+
 <details>
-<summary><a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a></summary>
+<summary><i>Click to expand</i></summary>
 <br>
 
 <p align="left">
@@ -112,10 +114,11 @@ An optimized data sorting algorithm project developed at **42 Yerevan**. The cha
 
 </details>
 
-<br>
+
+### <a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a>
 
 <details>
-<summary><a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a></summary>
+<summary><i>Click to expand</i></summary>
 <br>
 
 <p align="left">
@@ -135,10 +138,10 @@ A project to recreate the standard C library's `printf` function. It involves bu
 
 </details>
 
-<br>
+### <a href="https://github.com/arthavagyan/get_next_line">Get_Next_Line — Efficient Line Reading</a>
 
 <details>
-<summary><a href="https://github.com/arthavagyan/get_next_line">Get_Next_Line — Efficient Line Reading</a></summary>
+<summary><i>Click to expand</i></summary>
 <br>
 
 <p align="left">
@@ -158,10 +161,10 @@ A fundamental C function that reads from a file descriptor and returns one line 
 
 </details>
 
-<br>
+### <a href="https://github.com/arthavagyan/libft">Libft — The Foundation C Library</a>
 
 <details>
-<summary><a href="https://github.com/arthavagyan/libft">Libft — The Foundation C Library</a></summary>
+<summary><i>Click to expand</i></summary>
 <br>
 
 <p align="left">
@@ -180,6 +183,7 @@ A comprehensive collection of re-implemented standard C library functions, along
 | **Library Compilation** | Mastering static library (`.a`) creation using a professional `Makefile` with automated rules for maintenance and re-compilation |
 
 </details>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
