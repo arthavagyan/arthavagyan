@@ -16,13 +16,13 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-# <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
+### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
 
 > **Final-year Applied Mathematics and Informatics student** at **NPUA**, concurrently pursuing intensive **software engineering** training at **42 Yerevan**. I oﬀer a strong technical foundation in **algorithms, data structures, and memory management**, with core expertise in **C** and **Python** development within **Linux/Unix** environments.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-# • Hard Skills
+### • Hard Skills
 
 <div align="center">
 
@@ -48,7 +48,21 @@
     </td>
     <td align="center" width="110">
       <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-      <br><b>Linux</b>
+      <br><b>Linux/Unix</b>
+    </td>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      <br><b>Docker</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" />
+      <br><b>Azure</b>
+    </td>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" alt="Terraform" />
+      <br><b>Terraform</b>
     </td>
     <td align="center" width="110">
       <img src="https://skillicons.dev/icons?i=unity" width="48" height="48" alt="Unity" />
@@ -57,18 +71,24 @@
   </tr>
 </table>
 
+<img src="https://img.shields.io/badge/DevOps-0d1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/CI%2FCD-0d1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Infrastructure_as_Code-0d1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Containerization-0d1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/OOP-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Algorithms-0d1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Algorithms_&_Data_Structures-0d1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Memory_Management-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Optimization-0d1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Digital_Logic-0d1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Computer_Architecture-0d1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Networking-0d1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Optimization-0d1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MS_Office-0d1117?style=for-the-badge" />
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-# • Soft Skills
+### • Soft Skills
 
 <div align="center">
 
@@ -89,7 +109,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-# • Featured Projects
+### • Featured Projects
 
 ### <a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a>
 
@@ -113,7 +133,6 @@ An optimized data sorting algorithm project developed at **42 Yerevan**. The cha
 | **Bitwise Logic** | Mastering binary manipulation to implement an efficient Radix sort on stacks |
 
 </details>
-
 
 ### <a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a>
 
@@ -184,10 +203,9 @@ A comprehensive collection of re-implemented standard C library functions, along
 
 </details>
 
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-# • GitHub Stats
+### • GitHub Stats
 
 <div align="center">
 
