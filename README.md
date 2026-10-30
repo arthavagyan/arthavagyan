@@ -4,48 +4,28 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arthavagyan)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthavagy@gmail.com)
-[![CV](https://img.shields.io/badge/CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Wg4sBJCw-wbwnl68sQes4tj4FEUyJxB6/view?usp=sharing)
-![Yerevan](https://img.shields.io/badge/Yerevan,_Armenia-0d1117?style=for-the-badge&logo=googlemaps&logoColor=7ce0ff)
+<a href="mailto:arthavagy@gmail.com"><img src="assets/c-email.svg" width="420" alt="Email: arthavagy@gmail.com" /></a>
+<a href="https://linkedin.com/in/arthavagyan"><img src="assets/c-linkedin.svg" width="220" alt="LinkedIn: @arthavagyan" /></a>
+<br/>
+<a href="https://drive.google.com/file/d/1Wg4sBJCw-wbwnl68sQes4tj4FEUyJxB6/view?usp=sharing"><img src="assets/c-cv.svg" width="220" alt="CV (PDF on Google Drive)" /></a>
+<img src="assets/c-location.svg" width="420" alt="Yerevan, Armenia" />
 
 </div>
 
-## `$ cat arthur.h`
+## `$ neofetch`
 
-```c
-typedef struct s_engineer
-{
-    char    *name;        // "Arthur Avagyan"
-    char    *based_in;    // "Yerevan, Armenia"
-    char    *studying[2]; // NPUA — Applied Math & Informatics (final year)
-                          // 42 Yerevan — Software Engineering
-    char    *working_at;  // TUMO Center for Creative Technologies
-    char    *core[3];     // { "C", "Python", "Bash" }  on  Linux/Unix
-    char    *into;        // algorithms, memory management, low-level systems
-    int     memory_leaks; // 0 — checked with valgrind, every time
-}   t_engineer;
-```
+<img src="assets/neofetch.svg" width="100%" alt="neofetch — Arthur Avagyan: NPUA, 42 Yerevan, TUMO; C, Python, Bash" />
 
 I'm a final-year Applied Mathematics & Informatics student at **NPUA**, and at the same time I'm training as a software engineer at **42 Yerevan**. 42's peer-to-peer model taught me to learn on my own, read other people's code, and debug without a teacher. At **TUMO** I built an automated schedule-display system that now runs the center's information screens. I also teach C and Linux to other students, because explaining something is the best test of whether you understand it.
 
-## `$ ls ~/experience`
+## `$ git log --graph`
 
-| | Role | Where | When |
-|:-:|:--|:--|:--|
-| 🖥️ | **Information Desk Coordinator** <br/><sub>Student & parent support, accounts and schedules, orientation meetings. Built the Quadrant Display system ↓</sub> | TUMO Center for Creative Technologies | `08/2026 — now` |
-| 🧑‍🏫 | **Volunteer Instructor** <br/><sub>Taught C and Linux/Bash to large groups, organized events, proctored exams</sub> | 42 Yerevan & TUMO Labs | `08/2026 — now` |
-| 🌐 | **Technical Support Specialist** <br/><sub>Troubleshot routers, Wi-Fi, LAN, and basic network configs</sub> | Ucom | `06/2025 — 04/2026` |
-| ⛺ | **Volunteer Mentor** <br/><sub>Supervised and mentored children of different age groups</sub> | Children's Summer Camp | `07/2024, 07/2025` |
+<img src="assets/experience.svg" width="100%" alt="Experience: TUMO Information Desk Coordinator (08/2026–now); volunteer instructor at 42 Yerevan & TUMO Labs (08/2026–now); Technical Support Specialist at Ucom (06/2025–04/2026); volunteer mentor at Children's Summer Camp (07/2024, 07/2025)" />
 
 ## `$ ./featured`
 
 ### 📺 Quadrant Display Automation (TUMO)
 
-![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white)
-![JavaScript](https://img.shields.io/badge/HTML_/_CSS_/_JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 Staff used to update the center's schedule screens by hand. Now the screens read live data from Google Sheets and update themselves.
 
@@ -107,14 +87,15 @@ My own libc: `memmove`, string utilities, and a linked-list API. Every later 42 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,python,bash,linux,git,raspberrypi,html,css,js&perline=9" alt="C, Python, Bash, Linux, Git, Raspberry Pi, HTML, CSS, JS" />
-
-<br/><br/>
-
-![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-0d1117?style=for-the-badge&logo=google&logoColor=4285F4)
-![Google Workspace](https://img.shields.io/badge/Google_Workspace-0d1117?style=for-the-badge&logo=googledrive&logoColor=34A853)
-![MS Office](https://img.shields.io/badge/MS_Office-0d1117?style=for-the-badge&logo=microsoftoffice&logoColor=D83B01)
-![Networking](https://img.shields.io/badge/Networking-0d1117?style=for-the-badge&logo=cisco&logoColor=1BA0D7)
+<img src="assets/t-c.svg" width="200" alt="C" />
+<img src="assets/t-python.svg" width="200" alt="Python" />
+<img src="assets/t-bash.svg" width="200" alt="Bash" />
+<img src="assets/t-linux.svg" width="200" alt="Linux" />
+<br/>
+<img src="assets/t-git.svg" width="200" alt="Git" />
+<img src="assets/t-appsscript.svg" width="200" alt="Google Apps Script" />
+<img src="assets/t-raspberrypi.svg" width="200" alt="Raspberry Pi" />
+<img src="assets/t-js.svg" width="200" alt="HTML/CSS/JS" />
 
 </div>
 
@@ -127,6 +108,7 @@ My own libc: `memmove`, string utilities, and a linked-list API. Every later 42 
 `Algorithms & Data Structures` `Memory Management`
 `Digital Logic` `Computer Architecture`
 `Networking` `Linux / Unix`
+`Google Workspace` `MS Office`
 
 </td>
 <td width="50%" valign="top">
@@ -149,7 +131,7 @@ My own libc: `memmove`, string utilities, and a linked-list API. Every later 42 
 | 🇷🇺 Russian | C1 | `████████░░` |
 | 🇬🇧 English | B2 | `███████░░░` |
 
-## `$ git log --stat`
+## `$ gh stats`
 
 <div align="center">
 

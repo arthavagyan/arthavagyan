@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Arthur Avagyan — Software Engineering Student">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Arthur Avagyan — 42 Yerevan · NPUA · TUMO">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/><stop offset=".6" stop-color="#0d1a2e"/><stop offset="1" stop-color="#0b2545"/>
@@ -8,7 +8,7 @@
     </linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1f6feb" opacity=".18"/></pattern>
     <clipPath id="type1"><rect class="t1" x="60" y="70" height="30" width="0"/></clipPath>
-    <clipPath id="type2"><rect class="t2" x="60" y="250" height="30" width="0"/></clipPath>
+    <clipPath id="type2"><rect class="t2" x="60" y="242" height="30" width="0"/></clipPath>
   </defs>
   <style>
     .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
@@ -68,18 +68,16 @@
   </g>
 
   <!-- output -->
-  <text x="58" y="160" class="sans fade d1" font-size="60" font-weight="800" fill="url(#name)" letter-spacing="-1">Arthur Avagyan</text>
-  <text x="60" y="198" class="mono fade d2" font-size="17" fill="#c9d1d9">Software Engineering Student · <tspan fill="#7ce0ff">C</tspan> · <tspan fill="#7ce0ff">Linux</tspan> · <tspan fill="#7ce0ff">Python</tspan></text>
-  <text x="60" y="226" class="mono fade d3" font-size="14" fill="#8b949e">42 Yerevan  ·  NPUA Applied Math &amp; Informatics  ·  TUMO</text>
+  <text x="58" y="168" class="sans fade d1" font-size="60" font-weight="800" fill="url(#name)" letter-spacing="-1">Arthur Avagyan</text>
+  <text x="60" y="206" class="mono fade d2" font-size="15" fill="#8b949e">42 Yerevan  ·  NPUA Applied Math &amp; Informatics  ·  TUMO</text>
 
   <!-- prompt 2 -->
   <g clip-path="url(#type2)">
-    <text x="60" y="272" class="mono" font-size="17"><tspan fill="#3fb950">➜</tspan><tspan fill="#58a6ff"> ~ </tspan><tspan fill="#e6edf3">valgrind ./life</tspan><tspan fill="#3fb950">  # 0 leaks</tspan></text>
+    <text x="60" y="264" class="mono" font-size="17"><tspan fill="#3fb950">➜</tspan><tspan fill="#58a6ff"> ~ </tspan><tspan fill="#e6edf3">valgrind ./life</tspan><tspan fill="#3fb950">  # 0 leaks</tspan></text>
   </g>
-  <rect class="cursor" x="366" y="257" width="10" height="20" fill="#7ce0ff"/>
+  <rect class="cursor" x="366" y="249" width="10" height="20" fill="#7ce0ff"/>
 
   <!-- push_swap homage -->
-  <text x="790" y="288" class="mono" font-size="12" fill="#8b949e">push_swap: radix sort, stack a</text>
   <line x1="785" y1="264" x2="1140" y2="264" stroke="#30363d" stroke-width="2"/>
   <g>
     <rect class="bar" x="790" y="162" width="17" height="100" rx="3" style="animation:m8 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
