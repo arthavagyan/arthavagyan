@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="CV">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#232a38"/><stop offset="1" stop-color="#131821"/></linearGradient>
+    <linearGradient id="hi" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ib" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    
+  </defs>
+  <rect x="1" y="1" width="108" height="108" rx="22" fill="url(#bg)"/>
+  
+  <rect x="1" y="1" width="108" height="108" rx="22" fill="url(#hi)"/>
+  <rect x="1.5" y="1.5" width="107" height="107" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".10"/>
+  
+  <rect x="31" y="16" width="48" height="48" rx="12.5" fill="#fff"/><rect x="31" y="16" width="48" height="48" rx="12.5" fill="url(#ib)"/><g transform="translate(41.56,26.56) scale(1.1200)" fill="#1a73e8"><path d="M12.01 1.485c-2.082 0-3.754.02-3.743.047.01.02 1.708 3.001 3.774 6.62l3.76 6.574h3.76c2.081 0 3.753-.02 3.742-.047-.005-.02-1.708-3.001-3.775-6.62l-3.76-6.574zm-4.76 1.73a789.828 789.861 0 0 0-3.63 6.319L0 15.868l1.89 3.298 1.885 3.297 3.62-6.335 3.618-6.33-1.88-3.287C8.1 4.704 7.255 3.22 7.25 3.214zm2.259 12.653-.203.348c-.114.198-.96 1.672-1.88 3.287a423.93 423.948 0 0 1-1.698 2.97c-.01.026 3.24.042 7.222.042h7.244l1.796-3.157c.992-1.734 1.85-3.23 1.906-3.323l.104-.167h-7.249z"/></g><text x="55" y="94" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">CV</text>
+</svg>

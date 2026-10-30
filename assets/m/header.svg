@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300" role="img" aria-label="Arthur Avagyan — 42 Yerevan · NPUA · TUMO">
+  <style>
+    .fade{opacity:0;animation:fade .8s ease forwards}.d1{animation-delay:.3s}.d2{animation-delay:.7s}.d3{animation-delay:1.1s}
+    @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    .bar{fill:#58a6ff;transform-box:fill-box;transform-origin:bottom;animation:grow 1.2s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes grow{from{transform:scaleY(0)}}
+    .cursor{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.fade{opacity:1}}
+  </style>
+  <defs><linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#e6edf3"/><stop offset=".55" stop-color="#58a6ff"/><stop offset="1" stop-color="#7ce0ff"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset=".6" stop-color="#0d1a2e"/><stop offset="1" stop-color="#0b2545"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1f6feb" opacity=".16"/></pattern>
+  </defs>
+  <rect width="420" height="300" rx="18" fill="url(#bg)"/><rect width="420" height="300" rx="18" fill="url(#dots)"/>
+  <circle cx="30" cy="28" r="6" fill="#ff5f57"/><circle cx="50" cy="28" r="6" fill="#febc2e"/><circle cx="70" cy="28" r="6" fill="#28c840"/>
+  <text x="94" y="33" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#8b949e">arthur@yerevan: ~</text>
+  <text x="26" y="76" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" class="fade"><tspan fill="#3fb950">➜</tspan><tspan fill="#58a6ff"> ~ </tspan><tspan fill="#e6edf3">./whoami</tspan></text>
+  <text x="24" y="128" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="44" font-weight="800" fill="url(#nm)" class="fade d1">Arthur</text>
+  <text x="24" y="176" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="44" font-weight="800" fill="url(#nm)" class="fade d1">Avagyan</text>
+  <rect class="bar" x="290" y="132" width="9" height="18" rx="2"/><rect class="bar" x="303" y="120" width="9" height="30" rx="2"/><rect class="bar" x="316" y="108" width="9" height="42" rx="2"/><rect class="bar" x="329" y="96" width="9" height="54" rx="2"/><rect class="bar" x="342" y="84" width="9" height="66" rx="2"/><rect class="bar" x="355" y="72" width="9" height="78" rx="2"/><rect class="bar" x="368" y="60" width="9" height="90" rx="2"/>
+  <text x="26" y="214" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#8b949e" class="fade d2">42 Yerevan · NPUA · TUMO</text>
+  <text x="26" y="262" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" class="fade d3"><tspan fill="#3fb950">➜</tspan><tspan fill="#58a6ff"> ~ </tspan><tspan fill="#e6edf3">valgrind ./life</tspan><tspan fill="#3fb950"> # 0 leaks</tspan></text>
+</svg>
