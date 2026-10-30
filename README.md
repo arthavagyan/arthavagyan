@@ -1,225 +1,163 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Arthur%20Avagyan&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=Software%20Engineer%20•%2042%20Yerevan%20•%20NPUA&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="assets/header.svg" width="100%" alt="Arthur Avagyan — Software Engineering Student · C · Linux · Python" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arthavagyan)
-&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=arthavagy@gmail.com)
-&nbsp;
-[![CV](https://img.shields.io/badge/CV-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1Wg4sBJCw-wbwnl68sQes4tj4FEUyJxB6/view?usp=sharing) 
+<br/>
 
-<!-- [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-8B4513?style=for-the-badge)](https://linkedin.com/in/arthavagyan) -->
-
-<h3 align="center">Code is like humor. When you have to explain it, it's bad.</h3>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arthavagyan)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arthavagy@gmail.com)
+[![CV](https://img.shields.io/badge/CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Wg4sBJCw-wbwnl68sQes4tj4FEUyJxB6/view?usp=sharing)
+![Yerevan](https://img.shields.io/badge/Yerevan,_Armenia-0d1117?style=for-the-badge&logo=googlemaps&logoColor=7ce0ff)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+## `$ cat arthur.h`
 
-### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
+```c
+typedef struct s_engineer
+{
+    char    *name;        // "Arthur Avagyan"
+    char    *based_in;    // "Yerevan, Armenia"
+    char    *studying[2]; // NPUA — Applied Math & Informatics (final year)
+                          // 42 Yerevan — Software Engineering
+    char    *working_at;  // TUMO Center for Creative Technologies
+    char    *core[3];     // { "C", "Python", "Bash" }  on  Linux/Unix
+    char    *into;        // algorithms, memory management, low-level systems
+    int     memory_leaks; // 0 — checked with valgrind, every time
+}   t_engineer;
+```
 
-> **Final-year Applied Mathematics and Informatics student** at **NPUA**, concurrently pursuing intensive **software engineering** training at **42 Yerevan**. I oﬀer a strong technical foundation in **algorithms, data structures, and memory management**, with core expertise in **C** and **Python** development within **Linux/Unix** environments.
+I'm a final-year Applied Mathematics & Informatics student at **NPUA**, and at the same time I'm training as a software engineer at **42 Yerevan**. 42's peer-to-peer model taught me to learn on my own, read other people's code, and debug without a teacher. At **TUMO** I built an automated schedule-display system that now runs the center's information screens. I also teach C and Linux to other students, because explaining something is the best test of whether you understand it.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+## `$ ls ~/experience`
 
-### • Hard Skills
+| | Role | Where | When |
+|:-:|:--|:--|:--|
+| 🖥️ | **Information Desk Coordinator** <br/><sub>Student & parent support, accounts and schedules, orientation meetings. Built the Quadrant Display system ↓</sub> | TUMO Center for Creative Technologies | `08/2026 — now` |
+| 🧑‍🏫 | **Volunteer Instructor** <br/><sub>Taught C and Linux/Bash to large groups, organized events, proctored exams</sub> | 42 Yerevan & TUMO Labs | `08/2026 — now` |
+| 🌐 | **Technical Support Specialist** <br/><sub>Troubleshot routers, Wi-Fi, LAN, and basic network configs</sub> | Ucom | `06/2025 — 04/2026` |
+| ⛺ | **Volunteer Mentor** <br/><sub>Supervised and mentored children of different age groups</sub> | Children's Summer Camp | `07/2024, 07/2025` |
 
-<div align="center">
+## `$ ./featured`
+
+### 📺 Quadrant Display Automation (TUMO)
+
+![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white)
+![JavaScript](https://img.shields.io/badge/HTML_/_CSS_/_JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+Staff used to update the center's schedule screens by hand. Now the screens read live data from Google Sheets and update themselves.
+
+```mermaid
+flowchart LR
+    A[📊 Google Sheets<br/>staff edit as usual] --> B[⚙️ Apps Script<br/>format-aware parser]
+    B --> C[🌐 Web app<br/>+ admin panel]
+    C --> D[🍓 Raspberry Pi<br/>Chromium kiosk]
+    D --> E[🖥️ Screen 1 · coaches]
+    D --> F[🖥️ Screen 2 · rooms]
+```
+
+- **Robust parsing.** The parser finds data blocks by cell formatting, so it doesn't break when staff move rows or delete headers.
+- **Admin panel.** Auto and manual modes, manual edits, and one-time overrides that expire on their own.
+- **Kiosk deployment.** A Raspberry Pi drives two monitors and opens Chromium full screen at boot.
+
+## `$ ls ~/42`
 
 <table>
-  <tr>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
-      <br><b>C</b>
-    </td>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-      <br><b>Python</b>
-    </td>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash" />
-      <br><b>Bash</b>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-      <br><b>Git</b>
-    </td>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-      <br><b>Linux/Unix</b>
-    </td>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
-      <br><b>Docker</b>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" />
-      <br><b>Azure</b>
-    </td>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" alt="Terraform" />
-      <br><b>Terraform</b>
-    </td>
-    <td align="center" width="110">
-      <img src="https://skillicons.dev/icons?i=unity" width="48" height="48" alt="Unity" />
-      <br><b>Unity</b>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🔀 push_swap](https://github.com/arthavagyan/Push_swap)
+![](https://img.shields.io/badge/Radix_·_Chunk-30476b?style=flat-square) ![](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+
+Sorts a stack of integers with two stacks and a limited set of operations, in the **minimum number of moves**. Includes a bitwise radix sort on stacks.
+
+</td>
+<td width="50%" valign="top">
+
+### [🖨️ ft_printf](https://github.com/arthavagyan/Printf)
+![](https://img.shields.io/badge/Variadic_functions-30476b?style=flat-square) ![](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+
+My own `printf` built on `<stdarg.h>`. Handles flags, width, precision, and padding, with hex and pointer conversion written from scratch.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [📄 get_next_line](https://github.com/arthavagyan/get_next_line)
+![](https://img.shields.io/badge/Static_variables-30476b?style=flat-square) ![](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+
+Reads a file descriptor line by line with any `BUFFER_SIZE`, from 1 to 10,000,000. **Zero leaks** under Valgrind.
+
+</td>
+<td width="50%" valign="top">
+
+### [🧱 libft](https://github.com/arthavagyan/libft)
+![](https://img.shields.io/badge/Memory_management-30476b?style=flat-square) ![](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+
+My own libc: `memmove`, string utilities, and a linked-list API. Every later 42 project is built on it.
+
+</td>
+</tr>
 </table>
 
-<img src="https://img.shields.io/badge/DevOps-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/CI%2FCD-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Infrastructure_as_Code-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Containerization-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/OOP-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Algorithms_&_Data_Structures-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Memory_Management-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Digital_Logic-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Computer_Architecture-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Networking-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Optimization-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/MS_Office-0d1117?style=for-the-badge" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### • Soft Skills
+## `$ which tools`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Problem_Solving-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Critical_Thinking-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Teamwork-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Self_Learning-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Communication-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Time_Management-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Creativity-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Resilience-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Flexibility-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Responsibility-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Persistence-0d1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Peer_Collaboration-0d1117?style=for-the-badge" />
+<img src="https://skillicons.dev/icons?i=c,python,bash,linux,git,raspberrypi,html,css,js&perline=9" alt="C, Python, Bash, Linux, Git, Raspberry Pi, HTML, CSS, JS" />
+
+<br/><br/>
+
+![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-0d1117?style=for-the-badge&logo=google&logoColor=4285F4)
+![Google Workspace](https://img.shields.io/badge/Google_Workspace-0d1117?style=for-the-badge&logo=googledrive&logoColor=34A853)
+![MS Office](https://img.shields.io/badge/MS_Office-0d1117?style=for-the-badge&logo=microsoftoffice&logoColor=D83B01)
+![Networking](https://img.shields.io/badge/Networking-0d1117?style=for-the-badge&logo=cisco&logoColor=1BA0D7)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### • Featured Projects
+**🧠 Fundamentals**
 
-### <a href="https://github.com/arthavagyan/Push_swap">Push_Swap — The Art of Sorting</a>
+`Algorithms & Data Structures` `Memory Management`
+`Digital Logic` `Computer Architecture`
+`Networking` `Linux / Unix`
 
-<details>
-<summary><i>Click to expand</i></summary>
-<br>
+</td>
+<td width="50%" valign="top">
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Algorithm-Radix%20%7C%20Chunk%20%7C%20Selection-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
-</p>
+**🤝 How I work**
 
-#### **What is it?**
-An optimized data sorting algorithm project developed at **42 Yerevan**. The challenge was to sort a random stack of integers using only two stacks and a limited set of operations (swaps, pushes, rotations) with the **minimum number of moves**.
+`Peer-to-Peer Collaboration` `Self-Learning`
+`Problem Solving` `Critical Thinking` `Persistence`
+`Teamwork` `Communication` `Time Management`
 
-**Key Technical Challenges:**
-| Challenge | Details |
-|:--|:--|
-| **Memory Management** | Strict adherence to C standards with zero memory leaks |
-| **Optimization** | Minimizing the instruction count to beat the school's "ideal" benchmarks |
-| **Bitwise Logic** | Mastering binary manipulation to implement an efficient Radix sort on stacks |
+</td>
+</tr>
+</table>
 
-</details>
+## `$ locale -a`
 
-### <a href="https://github.com/arthavagyan/Printf">Printf — Custom Printf Implementation</a>
+| Language | Level | |
+|:--|:-:|:--|
+| 🇦🇲 Armenian | Native | `██████████` |
+| 🇷🇺 Russian | C1 | `████████░░` |
+| 🇬🇧 English | B2 | `███████░░░` |
 
-<details>
-<summary><i>Click to expand</i></summary>
-<br>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Concept-Variadic%20Functions-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
-</p>
-
-#### **What is it?**
-A project to recreate the standard C library's `printf` function. It involves building a personal version of the formatter that can handle various data types and complex formatting flags, providing a deeper understanding of how data is processed and displayed in C.
-
-**Key Technical Challenges:**
-| Challenge | Details |
-|:--|:--|
-| **Variadic Functions** | Mastering the use of `<stdarg.h>` to handle an unpredictable number of arguments |
-| **Buffer & Parsing Logic** | Implementing a robust parser to identify format specifiers and apply flags (width, precision, padding) in the correct order |
-| **Hex & Pointer Handling** | Writing custom converters to transform memory addresses and integers into hex strings without external libraries |
-
-</details>
-
-### <a href="https://github.com/arthavagyan/get_next_line">Get_Next_Line — Efficient Line Reading</a>
-
-<details>
-<summary><i>Click to expand</i></summary>
-<br>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Concept-Static%20Variables-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
-</p>
-
-#### **What is it?**
-A fundamental C function that reads from a file descriptor and returns one line at a time. This project solves the challenge of reading dynamic data where the line length is unknown, making it a crucial tool for parsing files and handling user input.
-
-**Key Technical Challenges:**
-| Challenge | Details |
-|:--|:--|
-| **Static Buffer Persistence** | Mastering the use of static variables to "remember" leftover data between function calls, ensuring no characters are lost across buffer boundaries |
-| **Dynamic Memory Mgmt** | Implementing precise allocation and freeing logic to handle lines of any size while maintaining 100% leak-free execution (verified with Valgrind) |
-| **Buffer Size Versatility** | Ensuring efficiency whether `BUFFER_SIZE` is set to 1, 42, or 10,000,000, handling multiple edge cases like EOF and empty files |
-
-</details>
-
-### <a href="https://github.com/arthavagyan/libft">Libft — The Foundation C Library</a>
-
-<details>
-<summary><i>Click to expand</i></summary>
-<br>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Concept-Memory%20Management-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge" />
-</p>
-
-#### **What is it?**
-A comprehensive collection of re-implemented standard C library functions, along with additional utilities for linked list management and string manipulation. This project serves as the backbone for all subsequent 42 School projects, replacing the standard libc with a custom-built, reliable toolkit.
-
-**Key Technical Challenges:**
-| Challenge | Details |
-|:--|:--|
-| **Pointer Arithmetic & Casting** | Deep knowledge of C types by implementing low-level memory functions like `memset`, `bzero`, and `memmove` from scratch |
-| **Abstract Data Structures** | Designing a versatile linked list API for dynamic data storage, including advanced functions like `ft_lstmap` for functional-style iterations |
-| **Library Compilation** | Mastering static library (`.a`) creation using a professional `Makefile` with automated rules for maintenance and re-compilation |
-
-</details>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-### • GitHub Stats
+## `$ git log --stat`
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=arthavagyan&theme=github-dark-blue&hide_border=true&border_radius=10" alt="Streak Stats" width="49%" />
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arthavagyan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact&border_radius=10" alt="Top Langs" width="49%" />
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=arthavagyan&theme=github-dark-blue&hide_border=true&border_radius=10" alt="Streak stats" width="49%" />
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arthavagyan&theme=github_dark&hide_border=true&layout=compact&border_radius=10" alt="Top languages" width="49%" />
 
-<!-- <img src="https://github-readme-stats.shion.dev/api?username=arthavagyan&theme=github_dark&hide_border=true&include_all_commits=false&count_private=false&border_radius=10" alt="GitHub Stats" width="49%" /> -->
+<br/><br/>
 
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" width="100%" />
+<img src="assets/footer.svg" width="100%" alt="while (alive) { learn(); build(); share(); }" />
 
 </div>
