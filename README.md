@@ -75,6 +75,6 @@ I'm a final-year Applied Mathematics & Informatics student at **NPUA**, and at t
 
 <br/><br/>
 
-<picture><source media="(max-width: 700px)" srcset="assets/m/footer.svg"><img src="assets/d/footer.svg" width="100%" alt="while (alive) {{ learn(); build(); share(); }}"></picture>
+<picture><source media="(max-width: 700px)" srcset="assets/m/footer.svg"><img src="assets/d/footer.svg" width="100%" alt="while (alive) { learn(); build(); share(); }"></picture>
 
 </div>
