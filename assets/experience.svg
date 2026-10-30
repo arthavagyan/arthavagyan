@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="452" viewBox="0 0 900 452" role="img" aria-label="Experience: TUMO Information Desk Coordinator (08/2026–now); Volunteer instructor at 42 Yerevan &amp; TUMO Labs (08/2026–now); Technical Support Specialist at Ucom (06/2025–04/2026); Volunteer mentor at Children's Summer Camp (07/2024, 07/2025)">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="358" viewBox="0 0 900 358" role="img" aria-label="Experience: TUMO Information Desk Coordinator (08/2026–now); Volunteer instructor at 42 Yerevan &amp; TUMO Labs (08/2026–now); Technical Support Specialist at Ucom (06/2025–04/2026); Volunteer mentor at Children's Summer Camp (07/2024, 07/2025)">
   <style>
     .draw{fill:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;animation:dr 1.6s ease forwards}
     .d2{animation-delay:.9s}
@@ -13,41 +13,37 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset=".6" stop-color="#0d1a2e"/><stop offset="1" stop-color="#0b2545"/></linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1f6feb" opacity=".16"/></pattern>
   </defs>
-  <rect width="900" height="452" rx="18" fill="url(#bg)"/>
-  <rect width="900" height="452" rx="18" fill="url(#dots)"/>
+  <rect width="900" height="358" rx="18" fill="url(#bg)"/>
+  <rect width="900" height="358" rx="18" fill="url(#dots)"/>
   <circle cx="30" cy="28" r="6" fill="#ff5f57"/><circle cx="50" cy="28" r="6" fill="#febc2e"/><circle cx="70" cy="28" r="6" fill="#28c840"/>
   <text x="94" y="33" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#8b949e">arthur@yerevan: ~/experience</text>
   <text x="30" y="68" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="15"><tspan fill="#3fb950">➜</tspan><tspan fill="#58a6ff"> experience </tspan><tspan fill="#8b949e">git:(</tspan><tspan fill="#ff7b72">main</tspan><tspan fill="#8b949e">)</tspan><tspan fill="#e6edf3"> git log --graph --oneline</tspan></text>
   <g transform="translate(0,22)">
-  <path class="draw" d="M44 338 L44 92" stroke="#58a6ff" pathLength="1"/><path class="draw d2" d="M44 244 C44 214 74 198 74 168 C74 138 44 122 44 92" stroke="#bc8cff" pathLength="1"/>
+  <path class="draw" d="M44 290 L44 92" stroke="#58a6ff" pathLength="1"/><path class="draw d2" d="M44 212 C44 182 74 182 74 152 C74 122 44 122 44 92" stroke="#bc8cff" pathLength="1"/>
   <g class="row" style="animation-delay:1.30s">
     <circle cx="44" cy="92" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="3"/>
     <circle cx="44" cy="92" r="12" fill="none" stroke="#7ce0ff" stroke-opacity=".5" class="ping"/>
         <rect x="110" y="80" width="97" height="20" rx="10" fill="#7ce0ff" fill-opacity=".12" stroke="#7ce0ff" stroke-opacity=".6"/><text x="159" y="94" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#7ce0ff">HEAD → main</text><rect x="213.4" y="80" width="46" height="20" rx="10" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".6"/><text x="236" y="94" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#3fb950">tumo</text>
     <text x="872" y="93" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">08/2026 — now</text>
     <text x="110" y="116" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Information Desk Coordinator @ TUMO</text>
-    <text x="110" y="134" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" fill="#8b949e">student &amp; parent support · accounts &amp; schedules · built the Quadrant Display system</text>
   </g><g class="row" style="animation-delay:0.95s">
-    <circle cx="74" cy="168" r="7" fill="#0d1117" stroke="#bc8cff" stroke-width="3"/>
+    <circle cx="74" cy="152" r="7" fill="#0d1117" stroke="#bc8cff" stroke-width="3"/>
     
-        <rect x="110" y="156" width="83" height="20" rx="10" fill="#bc8cff" fill-opacity=".12" stroke="#bc8cff" stroke-opacity=".6"/><text x="151" y="170" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#bc8cff">volunteer</text>
-    <text x="872" y="169" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">08/2026 — now</text>
-    <text x="110" y="192" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Volunteer Instructor @ 42 Yerevan &amp; TUMO Labs</text>
-    <text x="110" y="210" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" fill="#8b949e">taught large groups · organized events · proctored exams</text>
+        <rect x="110" y="140" width="83" height="20" rx="10" fill="#bc8cff" fill-opacity=".12" stroke="#bc8cff" stroke-opacity=".6"/><text x="151" y="154" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#bc8cff">volunteer</text>
+    <text x="872" y="153" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">08/2026 — now</text>
+    <text x="110" y="176" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Volunteer Instructor @ 42 Yerevan &amp; TUMO Labs</text>
   </g><g class="row" style="animation-delay:0.60s">
-    <circle cx="44" cy="244" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="3"/>
+    <circle cx="44" cy="212" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="3"/>
     
-        <rect x="110" y="232" width="46" height="20" rx="10" fill="#d29922" fill-opacity=".12" stroke="#d29922" stroke-opacity=".6"/><text x="133" y="246" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#d29922">ucom</text>
-    <text x="872" y="245" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">06/2025 — 04/2026</text>
-    <text x="110" y="268" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Technical Support Specialist @ Ucom</text>
-    <text x="110" y="286" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" fill="#8b949e">routers · Wi-Fi · LAN · basic network configs</text>
+        <rect x="110" y="200" width="46" height="20" rx="10" fill="#d29922" fill-opacity=".12" stroke="#d29922" stroke-opacity=".6"/><text x="133" y="214" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#d29922">ucom</text>
+    <text x="872" y="213" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">06/2025 — 04/2026</text>
+    <text x="110" y="236" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Technical Support Specialist @ Ucom</text>
   </g><g class="row" style="animation-delay:0.25s">
-    <circle cx="44" cy="320" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="3"/>
+    <circle cx="44" cy="272" r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="3"/>
     
-        <rect x="110" y="308" width="60" height="20" rx="10" fill="#ff7b72" fill-opacity=".12" stroke="#ff7b72" stroke-opacity=".6"/><text x="140" y="322" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#ff7b72">summer</text>
-    <text x="872" y="321" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">07/2024 · 07/2025</text>
-    <text x="110" y="344" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Volunteer Mentor @ Children’s Summer Camp</text>
-    <text x="110" y="362" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="12.5" fill="#8b949e">two summers of supervising &amp; mentoring kids</text>
+        <rect x="110" y="260" width="60" height="20" rx="10" fill="#ff7b72" fill-opacity=".12" stroke="#ff7b72" stroke-opacity=".6"/><text x="140" y="274" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#ff7b72">summer</text>
+    <text x="872" y="273" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">07/2024 · 07/2025</text>
+    <text x="110" y="296" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e6edf3">Volunteer Mentor @ Children’s Summer Camp</text>
   </g>
   </g>
 </svg>

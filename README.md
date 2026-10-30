@@ -13,8 +13,6 @@
 
 ## About me
 
-<img src="assets/neofetch.svg" width="100%" alt="Arthur Avagyan: NPUA, 42 Yerevan, TUMO; C, Python, Bash" />
-
 I'm a final-year Applied Mathematics & Informatics student at **NPUA**, and at the same time I'm training as a software engineer at **42 Yerevan**. 42's peer-to-peer model taught me to learn on my own, read other people's code, and debug without a teacher. At **TUMO** I built an automated schedule-display system that now runs the center's information screens. I also teach C and Linux to other students, because explaining something is the best test of whether you understand it.
 
 ## Experience
@@ -55,8 +53,8 @@ I'm a final-year Applied Mathematics & Informatics student at **NPUA**, and at t
 
 <div align="center">
 
-<img src="assets/s-fundamentals.svg" width="49%" alt="Fundamentals: Algorithms & Data Structures, Memory Management, Digital Logic, Computer Architecture, Networking, Linux / Unix, Google Workspace, MS Office" />
-<img src="assets/s-soft.svg" width="49%" alt="How I work: Peer-to-Peer Collaboration, Self-Learning, Problem Solving, Critical Thinking, Persistence, Teamwork, Communication, Time Management" />
+<img src="assets/s-fundamentals.svg" width="49%" alt="Hard Skills: Algorithms & Data Structures, Memory Management, Digital Logic, Computer Architecture, Networking, Linux / Unix, Google Workspace, MS Office" />
+<img src="assets/s-soft.svg" width="49%" alt="Soft Skills: Peer-to-Peer Collaboration, Self-Learning, Problem Solving, Critical Thinking, Persistence, Teamwork, Communication, Time Management" />
 
 </div>
 
