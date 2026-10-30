@@ -4,7 +4,7 @@
 
 <a href="mailto:arthavagy@gmail.com"><picture><source media="(max-width: 700px)" srcset="assets/m/contact-gmail.svg"><img src="assets/d/contact-gmail.svg" width="24%" alt="Gmail: arthavagy@gmail.com"></picture></a>
 <a href="https://linkedin.com/in/arthavagyan"><picture><source media="(max-width: 700px)" srcset="assets/m/contact-linkedin.svg"><img src="assets/d/contact-linkedin.svg" width="24%" alt="LinkedIn: @arthavagyan"></picture></a>
-<a href="https://drive.google.com/file/d/1Wg4sBJCw-wbwnl68sQes4tj4FEUyJxB6/view?usp=sharing"><picture><source media="(max-width: 700px)" srcset="assets/m/contact-cv.svg"><img src="assets/d/contact-cv.svg" width="24%" alt="CV (PDF on Google Drive)"></picture></a>
+<a href="https://drive.google.com/file/d/1hkDk9E3DVlUaQk5yTPsfIpyKj-EujGdM/view?usp=sharing"><picture><source media="(max-width: 700px)" srcset="assets/m/contact-cv.svg"><img src="assets/d/contact-cv.svg" width="24%" alt="CV (PDF on Google Drive)"></picture></a>
 <a href="PORTFOLIO_URL"><picture><source media="(max-width: 700px)" srcset="assets/m/contact-portfolio.svg"><img src="assets/d/contact-portfolio.svg" width="24%" alt="Portfolio"></picture></a>
 
 </div>
