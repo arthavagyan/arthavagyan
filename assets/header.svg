@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Arthur Avagyan — Software Engineering Student">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset=".6" stop-color="#0d1a2e"/><stop offset="1" stop-color="#0b2545"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6edf3"/><stop offset=".55" stop-color="#58a6ff"/><stop offset="1" stop-color="#7ce0ff"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1f6feb" opacity=".18"/></pattern>
+    <clipPath id="type1"><rect class="t1" x="60" y="70" height="30" width="0"/></clipPath>
+    <clipPath id="type2"><rect class="t2" x="60" y="250" height="30" width="0"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    .sans{font-family:-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+    .t1{animation:w1 1.6s steps(26) .3s forwards}
+    .t2{animation:w2 1.4s steps(30) 3.2s forwards}
+    @keyframes w1{to{width:420px}}
+    @keyframes w2{to{width:470px}}
+    .fade{opacity:0;animation:fade .8s ease forwards}
+    .d1{animation-delay:2.0s} .d2{animation-delay:2.4s} .d3{animation-delay:2.8s}
+    @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    .cursor{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .bar{fill:#1f6feb;transform-box:fill-box}
+    @keyframes c{0%,25%{fill:#30476b}40%,82%{fill:#58a6ff}96%,100%{fill:#30476b}}
+    @keyframes m8{0%,18%{transform:translateX(0)}46%,82%{transform:translateX(200px)}96%,100%{transform:translateX(0)}}
+    @keyframes m12{0%,18%{transform:translateX(0)}54%,82%{transform:translateX(275px)}96%,100%{transform:translateX(0)}}
+    @keyframes m7{0%,18%{transform:translateX(0)}44%,82%{transform:translateX(125px)}96%,100%{transform:translateX(0)}}
+    @keyframes m6{0%,18%{transform:translateX(0)}42%,82%{transform:translateX(75px)}96%,100%{transform:translateX(0)}}
+    @keyframes m13{0%,18%{transform:translateX(0)}56%,82%{transform:translateX(225px)}96%,100%{transform:translateX(0)}}
+    @keyframes m11{0%,18%{transform:translateX(0)}52%,82%{transform:translateX(150px)}96%,100%{transform:translateX(0)}}
+    @keyframes m5{0%,18%{transform:translateX(0)}40%,82%{transform:translateX(-25px)}96%,100%{transform:translateX(0)}}
+    @keyframes m2{0%,18%{transform:translateX(0)}34%,82%{transform:translateX(-125px)}96%,100%{transform:translateX(0)}}
+    @keyframes m9{0%,18%{transform:translateX(0)}48%,82%{transform:translateX(25px)}96%,100%{transform:translateX(0)}}
+    @keyframes m3{0%,18%{transform:translateX(0)}36%,82%{transform:translateX(-150px)}96%,100%{transform:translateX(0)}}
+    @keyframes m4{0%,18%{transform:translateX(0)}38%,82%{transform:translateX(-150px)}96%,100%{transform:translateX(0)}}
+    @keyframes m0{0%,18%{transform:translateX(0)}30%,82%{transform:translateX(-275px)}96%,100%{transform:translateX(0)}}
+    @keyframes m1{0%,18%{transform:translateX(0)}32%,82%{transform:translateX(-275px)}96%,100%{transform:translateX(0)}}
+    @keyframes m10{0%,18%{transform:translateX(0)}50%,82%{transform:translateX(-75px)}96%,100%{transform:translateX(0)}}
+    .node{animation:pulse 4s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.25}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.fade{opacity:1}.t1{width:420px}.t2{width:470px}}
+  </style>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#dots)"/>
+
+  <!-- constellation -->
+  <g stroke="#58a6ff" stroke-opacity=".18" stroke-width="1">
+    <line x1="640" y1="40" x2="720" y2="95"/><line x1="720" y1="95" x2="700" y2="170"/><line x1="720" y1="95" x2="820" y2="60"/>
+    <line x1="1080" y1="40" x2="1150" y2="80"/><line x1="560" y1="250" x2="640" y2="290"/>
+  </g>
+  <g fill="#7ce0ff">
+    <circle class="node" cx="640" cy="40" r="2.5"/><circle class="node" cx="720" cy="95" r="3" style="animation-delay:1s"/>
+    <circle class="node" cx="700" cy="170" r="2" style="animation-delay:2s"/><circle class="node" cx="820" cy="60" r="2.5" style="animation-delay:.5s"/>
+    <circle class="node" cx="1080" cy="40" r="2" style="animation-delay:1.5s"/><circle class="node" cx="1150" cy="80" r="2.5" style="animation-delay:3s"/>
+    <circle class="node" cx="560" cy="250" r="2" style="animation-delay:2.5s"/><circle class="node" cx="640" cy="290" r="2.5"/>
+  </g>
+
+  <!-- window chrome -->
+  <circle cx="34" cy="30" r="6" fill="#ff5f57"/><circle cx="54" cy="30" r="6" fill="#febc2e"/><circle cx="74" cy="30" r="6" fill="#28c840"/>
+  <text x="100" y="35" class="mono" font-size="13" fill="#8b949e">arthur@yerevan: ~</text>
+
+  <!-- prompt 1 -->
+  <g clip-path="url(#type1)">
+    <text x="60" y="92" class="mono" font-size="20"><tspan fill="#3fb950">➜</tspan><tspan fill="#58a6ff"> ~ </tspan><tspan fill="#e6edf3">./whoami --verbose</tspan></text>
+  </g>
+
+  <!-- output -->
+  <text x="58" y="160" class="sans fade d1" font-size="60" font-weight="800" fill="url(#name)" letter-spacing="-1">Arthur Avagyan</text>
+  <text x="60" y="198" class="mono fade d2" font-size="17" fill="#c9d1d9">Software Engineering Student · <tspan fill="#7ce0ff">C</tspan> · <tspan fill="#7ce0ff">Linux</tspan> · <tspan fill="#7ce0ff">Python</tspan></text>
+  <text x="60" y="226" class="mono fade d3" font-size="14" fill="#8b949e">42 Yerevan  ·  NPUA Applied Math &amp; Informatics  ·  TUMO</text>
+
+  <!-- prompt 2 -->
+  <g clip-path="url(#type2)">
+    <text x="60" y="272" class="mono" font-size="17"><tspan fill="#3fb950">➜</tspan><tspan fill="#58a6ff"> ~ </tspan><tspan fill="#e6edf3">valgrind ./life</tspan><tspan fill="#3fb950">  # 0 leaks</tspan></text>
+  </g>
+  <rect class="cursor" x="366" y="257" width="10" height="20" fill="#7ce0ff"/>
+
+  <!-- push_swap homage -->
+  <text x="790" y="288" class="mono" font-size="12" fill="#8b949e">push_swap: radix sort, stack a</text>
+  <line x1="785" y1="264" x2="1140" y2="264" stroke="#30363d" stroke-width="2"/>
+  <g>
+    <rect class="bar" x="790" y="162" width="17" height="100" rx="3" style="animation:m8 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="815" y="122" width="17" height="140" rx="3" style="animation:m12 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="840" y="172" width="17" height="90" rx="3" style="animation:m7 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="865" y="182" width="17" height="80" rx="3" style="animation:m6 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="890" y="112" width="17" height="150" rx="3" style="animation:m13 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="915" y="132" width="17" height="130" rx="3" style="animation:m11 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="940" y="192" width="17" height="70" rx="3" style="animation:m5 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="965" y="222" width="17" height="40" rx="3" style="animation:m2 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="990" y="152" width="17" height="110" rx="3" style="animation:m9 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="1015" y="212" width="17" height="50" rx="3" style="animation:m3 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="1040" y="202" width="17" height="60" rx="3" style="animation:m4 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="1065" y="242" width="17" height="20" rx="3" style="animation:m0 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="1090" y="232" width="17" height="30" rx="3" style="animation:m1 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+    <rect class="bar" x="1115" y="142" width="17" height="120" rx="3" style="animation:m10 9s cubic-bezier(.6,0,.3,1) infinite, c 9s infinite"/>
+  </g>
+</svg>
